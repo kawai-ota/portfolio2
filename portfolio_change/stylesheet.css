@@ -1,0 +1,176 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}
+ul{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+q:before,q:after{content:'';}
+object,embed{vertical-align:top;}
+legend{display:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+img,abbr,acronym,fieldset{border:0;}
+
+/*---------------共通---------------------------*/
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height:1.9;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 75%;
+    margin:0 auto;
+    
+}
+
+header{
+    padding-top: 80px;
+}
+
+.header-left h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+
+}
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list li{
+    margin: 20px;
+    margin-right: 10px;
+}
+
+.nav-list a{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.nav-list a:hover{
+    text-decoration: underline;
+}
+
+.top-wrapper img{
+    padding-top: 40px;
+
+}
+
+.myphoto img{
+    width:300px;
+}
+
+.mein-logo{
+    font-size: 50px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 100;
+    padding: 100px 0 60px 0;
+}
+
+.mainimg2{
+    margin: 0 auto;
+}
+
+.contents{
+    display: flex;
+}
+
+.about-text{
+    font-size: 20px;
+    padding-left: 80px;
+}
+
+.mein-text{
+    font-size: 16px;
+    padding-top: 40px;
+}
+
+.skills-wrapper h1{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.skills-wrapper .sub{
+    text-align: center;
+    font-size: 20px;
+    opacity:0.8;
+    padding-bottom: 45px;
+}
+
+.skills-content{
+    text-align: center;
+
+}
+
+.skills-text{
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.skills-text p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.skills-wrapper .mein-logo{
+    font-size: 50px;
+}
+
+.work-wrapper p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.work-contents img{
+    width: 45%;
+    margin:2% 2%;
+    border: solid 1px #e0e0e0;
+}
+
+.work-contents img:hover{
+    opacity: 0.5;
+}
+
+.work-contents{
+    text-align: center;
+}
+
+.studying-contents{
+    text-align: center;
+    margin: 10%;
+}
+
+.studying-contents p{
+    padding-top: 60px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.studying-contents h1{
+    font-size:30px;
+    padding-bottom: 55px;
+}
+
+footer .nav-list{
+    justify-content: flex-start;
+    padding-left: 18%;
+}
